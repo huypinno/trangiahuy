@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	
+	width: 100%;
+	height:667px;
+	background:url("../image/simon-godfrey-dHo8nA6L3p0-unsplash.jpg");
+	background-size: cover;
+}
+
+
+.text
+{
+	width:100%;
+	height:230px;
+	padding:3%;
+}
+.text1
+{
+	width:70%;
+	height:20px;
+	font-family:font1;
+	color:#FFFFFF
+}
+.text2
+{
+	width:70%;
+	height:200px;
+	font-size: 75px;
+	font-family:font1;
+	color:#FFFFFF
+}
+@font-face
+{
+	font-family:font1;
+	src: url("../font/BebasNeue-Regular.ttf");
+	
+}
+.text3
+{
+	width:70%;
+	height:40px;
+	font-family:font1;
+	color:#FFFFFF;
+	
+}
+
+
+
+.header
+{
+	width: 100%;
+	height: 90px;
+	
+}
+.logo
+{
+	width: 5%;
+	height:50px;
+	color:aliceblue ;
+	float:left;
+	padding:25px 40px 25px 40px ;
+	font-size: 40px;
+	font-family:font1;
+}   
+.menu
+{
+	width: 70%;
+	height:50px;
+	color: aliceblue;
+	float:right;
+	font-size: 15px;
+}
+.menu ul
+{
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+.menu ul li
+{
+	float:right;
+	padding: 40px 25px 40px 20px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.menu ul li a:hover
+{
+	
+	border-top: 2px  solid #FFFFFF
+}
+
+.thetag
+{
+	width: 50%;
+	height: 20px;
+	padding: 3%;
+}
+
+/* Block */
+.btn
+{
+	display: inline-block;
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color:#FFFFFF;
+	padding: 3%;
+	border-radius: 100px;
+	cursor: pointer;
+	transition: opacity .2s ease;
+}
+.btn:hover
+{
+	background-color: coral;
+}
+
+.btn + .btn
+{
+	margin-left: 20px;
+}
+.btn--click1
+{
+	background-color: limegreen;
+}
+.btn--click2
+{
+	background-color: limegreen;
+}
+.btn--click3
+{
+	background-color: limegreen;
+}
+.btn--click4
+{
+	background-color: limegreen;
+	padding-right: 79%;
+	text-align: center;
+}
+
+
+
+.container2
+{
+	width: 100%;
+	height:1000px;
+	background-color: aquamarine;
+		
+}
+.picves
+{
+	width: 100%;
+	height:1000px;
+	background-color: aliceblue;
+	background: url("../image/dan-cristian-padure-mIyZDPhuyY0-unsplash.jpg");
+	background-size:cover;	
+	
+}
+.textves
+{
+	width: 50%;
+	height:200px;
+	color:#FFFFFF;
+	font-size: 75px;
+	font-family:font1;
+	padding: 3%;
+		
+}
+.textvess
+{
+	width: 60%;
+	height:520px;
+	float:left;
+	color:#FFFFFF;
+	font-size: 20px;
+	font-family:font1;
+	padding: 3%;
+}
+.textvesa
+{
+	width: 55%;
+	height:50px;
+	float:left;
+	color:#FFFFFF;
+	font-size: 15px;
+	font-family:font1;
+	padding: 3%;
+}
+
+.textvesb
+{
+	width: 30%;
+	height:50px;
+	float:left;
+	color:#FFFFFF;
+	font-size: 15px;
+	font-family:font1;
+	padding: 3%;
+}
+.container3
+{
+	width: 100%;
+	height:800px;
+	background-color: #ebf4e0;
+		
+}
+.btrong
+{
+	width: 100%;
+	height:50px;
+	background-color:#ebf4e0 ;
+}
+.pic3
+{
+	width: 40%;
+	height: 600px;
+	float:right;
+	background-color: #ebf4e0 ;
+	padding: 3%;
+	margin: auto;
+	
+	
+	
+}
+.textp3
+{
+	width:50%;
+    height:600px;
+	background-color: #ebf4e0 ;
+	float:left;
+}
+.tieude
+{
+	width: 100%;
+	height: 200px;
+	color:#000000;
+	font-size: 75px;
+	font-family:font1;
+	padding: 3%;
+	background: #ebf4e0 ;	
+	
+}
+#wrapper
+{
+	max-width: 600px;
+	margin: 0px auto;
+}
+.accordion-header
+{
+	background: #BDBCBC ;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	font-family:font1;
+	font-size: 15px;
+	align-items: center;
+	
+}
+.accordion-body
+{
+	padding: 10px 10px;
+	display: none;
+}
+.accordion-item.active .accordion-header
+{
+	background: #DC7B7D;
+	color: #FFFFFF;
+		
+}
+.arrow
+{
+	transition: all 0.3s;
+}
+.container4
+{
+	width: 100%;
+	height:1100px;
+	background-color: #FFFFFF;
+		
+}
+.btrong2
+{
+	width: 100%;
+	height:100px;
+	background-color:#FFFFFF;
+	 
+}
+.picture4
+{
+	width: 40%;
+	height:848px;
+	padding: 3%;
+	background: url("../image/695d7532a4ff7dab4ee181b0c0363932.jpg");
+	background-size: cover;	
+	float:left
+	 
+}
+.thanhe
+{
+	width: 30px;
+	height:848px;
+	float:left;
+}
+.context4
+{
+	width: 50%;
+	height:921px;
+	background-color: brown;
+	float:right;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	
+}
+.text44
+{
+	color:#FFFFFF;
+	font-size: 75px;
+	font-family:font1;
+	width: 100%;
+	height:300px;
+	text-align-last: center;
+}
+
+.text4a
+{
+	color:#FFFFFF;
+	font-size: 20px;
+	font-family:font1;
+	width: 100%;
+	height:150px;	
+	text-align-last: center;
+}
+.text4b
+{
+	color:#FFFFFF;
+	font-size: 20px;
+	font-family:font1;
+	width: 100%;
+	height:150px;
+	text-align-last: center;
+}
+.text4c
+{
+	color:#FFFFFF;
+	font-size: 20px;
+	font-family:font1;
+	width: 100%;
+	height:150px;
+	text-align-last: center;
+}
+.container5
+{
+	width: 100%;
+	height:1000px;
+	background:url("../image/ales-krivec-4miBe6zg5r0-unsplash.jpg");
+	background-size: cover;
+	text-align: center;
+		
+}
+.btrong3
+{
+	width: 100%;
+	height: 100px;
+		
+}
+.textctn5
+{
+	width: 100%;
+	height:100px;
+	text-align: center;
+	font-size: 70px;
+	font-family:font1;
+	color: #FFFFFF
+	
+}
+
+.textctn5a
+{
+	width: 100%px;
+	height: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-family:font1;
+	color: #FFFFFF;
+}
+.backgroundcenter
+{
+	width: 100%;
+	height: 400px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.login
+{
+	width: 300px;
+	height: 300px;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family:font1;
+	color: #FFFFFF;
+	
+}
+		
+.h2
+{
+	font-size: 10px;
+	font-family:font1;
+	color: #FFFFFF;
+}
+.input
+{
+	width: 200px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border:2px solid #FFFFFF;
+	padding-left:20px;
+		
+}
+
+.button
+{
+	width: 220px;
+	height: 40px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: limegreen;
+	color: white;
+	border-radius: 5px;
+	
+}
+.button:hover
+{
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
